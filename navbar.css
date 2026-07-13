@@ -1,0 +1,54 @@
+body .nav {
+  background: rgb(51 51 51);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  color: rgb(254 254 254);
+}
+
+.nav-title,
+.nav-links {
+  margin: 0;
+}
+
+.nav-title {
+  font-size: 28px;
+}
+
+.nav-links {
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 15px;
+  vertical-align: middle;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 15px;
+  color: rgb(171 171 171);
+}
+
+.nav-links a.activity {
+  font-weight: bold;
+  color: #fff;
+
+}
+
+.btn {
+  background: rgb(23 162 184);
+  padding: 6px 14px;
+  font-size: 14px;
+  color: #fff;
+  cursor: pointer;
+  border: 3px solid black;
+  box-shadow: 6px 6px rgb(1 1 1);
+}
+
+.btn:hover {
+  background: #17c0eb;
+}
